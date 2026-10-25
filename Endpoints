@@ -1,0 +1,8 @@
+Get merchany auction items like for the wakiki
+
+NO Auth required
+https://csauth.idram.am/auction/v1/Bonus/GetMerchantAuctionItems?end=400&serviceMemberId=192823&start=0
+
+KinoPark = 190343
+
+https://csauth.idram.am/auction/v1/Bonus/GetMerchantAuctionItems?end=400&serviceMemberId=192823&start=0
