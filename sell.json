@@ -1,0 +1,849 @@
+{
+  "id": null,
+  "succeeded": true,
+  "message": null,
+  "exceptionCode": null,
+  "value": [
+
+    {
+      "id": 15358793,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-25T11:10:42",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60204196,
+      "parentDealId": null,
+      "amount": 50.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60204196",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102500048183",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-44.94",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15357673,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-25T03:19:48",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60198741,
+      "parentDealId": null,
+      "amount": 35.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60198741",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102400441124",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-28.28",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15346669,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-24T10:48:00",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60150031,
+      "parentDealId": null,
+      "amount": 981.17,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60150031",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102400053585",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-881.24",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15341728,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-23T20:10:22",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60128385,
+      "parentDealId": null,
+      "amount": 80.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60128385",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102300338739",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-71.91",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15338287,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-23T16:12:56",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60112412,
+      "parentDealId": null,
+      "amount": 30.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60112412",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102300219420",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-26.97",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15327928,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-22T20:19:28",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60068750,
+      "parentDealId": null,
+      "amount": 600.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60068750",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102200346630",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-539.34",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15324973,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-22T16:57:16",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60054836,
+      "parentDealId": null,
+      "amount": 89.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60054836",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102200247467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-79.79",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15296877,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-20T13:54:26",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 59928314,
+      "parentDealId": null,
+      "amount": 61.1,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "59928314",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102000171934",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-48.73",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15273757,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-18T15:41:27",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 59822578,
+      "parentDealId": null,
+      "amount": 80.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "59822578",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26101800165073",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-71.71",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15273441,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-18T15:17:56",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 59821105,
+      "parentDealId": null,
+      "amount": 240.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "59821105",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26101800154650",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-193.92",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15254318,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-16T19:34:30",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 59729007,
+      "parentDealId": null,
+      "amount": 74.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "59729007",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26101600349658",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-66.52",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15252888,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-16T18:02:18",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 59722567,
+      "parentDealId": null,
+      "amount": 30.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "59722567",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26101600298006",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-24.08",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 15250973,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-16T15:32:43",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 59713089,
+      "parentDealId": null,
+      "amount": 50.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "59713089",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26101600217248",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-44.94",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 14498346,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-08-27T17:09:37",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 56626330,
+      "parentDealId": null,
+      "amount": 50.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "56626330",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26082700251952",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-44.82",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    },
+    {
+      "id": 14486388,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-08-26T23:07:27",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 56583032,
+      "parentDealId": null,
+      "amount": 206.0,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "56583032",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26082600431159",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-184.83",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.0
+    }
+  ]
+}

@@ -6,6 +6,7 @@ class CSAuctionIdramClient {
  async   getMerchantAuctionItemsByServiceMemberId(memberId) {
      const url = `${config.CS_AUCTION_IDRAM}/Bonus/GetMerchantAuctionItems`;
      console.log("URL " + url);
+     console.log("MemberId " + memberId);
         const response =  await axios.get(
             `${config.CS_AUCTION_IDRAM}/Bonus/GetMerchantAuctionItems`,
             {
@@ -16,10 +17,6 @@ class CSAuctionIdramClient {
                 }
             }
         );
-
-        console.log("response_test")
-        console.log(JSON.stringify(response.data, null, 2));
-
         return response;
     }
 }

@@ -6,6 +6,7 @@ const Merchants = require("./Merchants");
 const CSAuctionIdramClient = require("./clients/CSAuctionIdramClient");
 const TelegramClient = require("./clients/TelegramClient");
 
+
 const auctionIdramClient = new CSAuctionIdramClient();
 const telegramClient = new TelegramClient();
 
@@ -28,11 +29,11 @@ async function sendNotification(
 }
 
 const THRESHOLDS = {
-    PERSONAL: 10,
+    PERSONAL: 9,
     BUSINESS: 12
 };
 
-const MAX_AMOUNT = 20000;
+const MAX_AMOUNT = 9900;
 
 async function checkPercent() {
     const randomNumber = Math.floor(Math.random() * 101);
@@ -102,7 +103,10 @@ async function checkPercent() {
 }
 
 
+
 checkPercent();
+
+setInterval(checkPercent, 20000);
 
 
 
