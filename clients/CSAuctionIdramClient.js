@@ -7,16 +7,21 @@ class CSAuctionIdramClient {
      const url = `${config.CS_AUCTION_IDRAM}/Bonus/GetMerchantAuctionItems`;
      console.log("URL " + url);
      console.log("MemberId " + memberId);
-        const response =  await axios.get(
-            `${config.CS_AUCTION_IDRAM}/Bonus/GetMerchantAuctionItems`,
-            {
-                params: {
-                    end: 400,
-                    serviceMemberId: memberId,
-                    start: 0
-                }
-            }
-        );
+
+     const params = {
+         end: 400,
+         serviceMemberId: memberId,
+         start: 0
+     };
+
+     console.log("=== Axios Request ===");
+     console.log("Method:", "GET");
+     console.log("URL:", url);
+     console.log("Params:", params);
+
+     const response = await axios.get(url, {
+         params
+     });
         return response;
     }
 }
