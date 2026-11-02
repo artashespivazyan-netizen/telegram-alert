@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 global.performance = require('perf_hooks').performance;
 const { getMerchants } = require("./Merchants");
 const CSAuctionIdramClient = require("./CSAuctionIdramClient");
@@ -10,7 +11,7 @@ const THRESHOLDS = Object.freeze({
     BUSINESS: 14
 });
 
-const MIN_AMOUNT = 200;
+const MIN_AMOUNT = 100;
 
 const CONCURRENCY = 12;
 const INTERVAL_MS = 3000;
@@ -80,7 +81,7 @@ function sendNotification(merchantName, item, targetUrl, randomNumber) {
 async function checkMerchant(merchant, randomNumber) {
     try {
         const response = await auctionIdramClient.getMerchantAuctionItemsByServiceMemberId(merchant.id);
-        console.log("Response_data " + response.data)
+       /// console.log("Response_data " + response.data)
         const auctionItems = response?.data?.value?.auctionItems;
 
         if (!Array.isArray(auctionItems) || auctionItems.length === 0) return;

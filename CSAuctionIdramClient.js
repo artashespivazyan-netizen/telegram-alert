@@ -2,6 +2,7 @@ const axios = require("axios");
 const http = require("http");
 const https = require("https");
 const config = require("./config");
+const dns = require('dns');
 
 // Reusable TCP/TLS connections to minimize handshake latency
 const httpAgent = new http.Agent({ keepAlive: true, maxSockets: 50 });
@@ -9,11 +10,17 @@ const httpsAgent = new https.Agent({ keepAlive: true, maxSockets: 50 });
 
 class CSAuctionIdramClient {
     constructor() {
+
+        if (dns.setDefaultResultOrder) {
+            dns.setDefaultResultOrder('ipv4first');
+        }
+
+
         this.apiClient = axios.create({
             baseURL: config.CS_AUCTION_IDRAM,
+            httpsAgent: new https.Agent({ family: 4, keepAlive: true }),
             timeout: 5000,
             httpAgent,
-            httpsAgent,
             headers: { "Accept-Encoding": "gzip,deflate,br" }
         });
 
