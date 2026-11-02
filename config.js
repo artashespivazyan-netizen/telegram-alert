@@ -1,12 +1,8 @@
-const path = require("path");
-require("dotenv").config({ path: path.resolve(__dirname, ".env") }); // or "../.env" depending on where .env lives relative to config.js
-
 module.exports = {
     TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN,
     TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID,
     TELEGRAM_API_URL: process.env.TELEGRAM_API_URL || "https://api.telegram.org",
     CS_AUCTION_IDRAM: process.env.CS_AUCTION_IDRAM,
-
     BARK_DEVICE_KEY: process.env.BARK_DEVICE_KEY,
-    BARK_SERVER_URL: process.env.BARK_SERVER_URL,
+    BARK_SERVER_URL: process.env.BARK_SERVER_URL || "https://api.day.app"
 };

@@ -1,8 +1,19 @@
-require("dotenv").config({ path: "../.env" });
 const axios = require("axios");
 const config = require("../config");
 
-const BARK_URL = "https://api.day.app/9YnqS54wcgaYfiqve2eSGe";
+const requiredConfig = [
+    "BARK_DEVICE_KEY",
+    "TELEGRAM_BOT_TOKEN",
+    "TELEGRAM_CHAT_ID"
+].filter((key) => !config[key]);
+
+if (requiredConfig.length > 0) {
+    throw new Error(
+        `Missing required environment configuration: ${requiredConfig.join(", ")}`
+    );
+}
+
+const BARK_URL = `${config.BARK_SERVER_URL}/${config.BARK_DEVICE_KEY}`;
 const TELEGRAM_URL = `${config.TELEGRAM_API_URL}/bot${config.TELEGRAM_BOT_TOKEN}/sendMessage`;
 const TELEGRAM_CHAT_ID = config.TELEGRAM_CHAT_ID;
 
