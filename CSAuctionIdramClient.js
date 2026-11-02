@@ -18,7 +18,7 @@ class CSAuctionIdramClient {
 
         this.apiClient = axios.create({
             baseURL: config.CS_AUCTION_IDRAM,
-            httpsAgent: new https.Agent({ family: 4, keepAlive: true }),
+            httpsAgent: new https.Agent({ family: 4, keepAlive: false }),
             timeout: 5000,
             httpAgent,
             headers: { "Accept-Encoding": "gzip,deflate,br" }
