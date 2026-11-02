@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-27T15:03:12.492Z",
+    "merchantType": "BUSINESS",
+    "merchantName": "MERY_PARFUME",
+    "savingPercent": 13.07,
+    "minSavingPercent": 12,
+    "price": 196.89,
+    "amount": 226.5,
+    "randomNumber": 32,
+    "message": "🎯 Տեսակ: <b>BUSINESS</b>\n🏪 Գործընկեր: <b>MERY_PARFUME</b>\n💰 Խնայողություն: <b>13.07%</b>\n📈 Նվազագույն տոկոս: <b>> 12%</b>\n💵 Վաճառքի գին: <b>196.89</b>\n💳 Լոտի արժեք: <b>226.5</b>\n🔴 Համար: <b>32</b>"
+  },
+  {
+    "date": "2026-10-27T15:03:22.971Z",
+    "merchantType": "BUSINESS",
+    "merchantName": "MERY_PARFUME",
+    "savingPercent": 13.07,
+    "minSavingPercent": 12,
+    "price": 196.89,
+    "amount": 226.5,
+    "randomNumber": 93,
+    "message": "🎯 Տեսակ: <b>BUSINESS</b>\n🏪 Գործընկեր: <b>MERY_PARFUME</b>\n💰 Խնայողություն: <b>13.07%</b>\n📈 Նվազագույն տոկոս: <b>> 12%</b>\n💵 Վաճառքի գին: <b>196.89</b>\n💳 Լոտի արժեք: <b>226.5</b>\n🔴 Համար: <b>93</b>"
+  }
+]

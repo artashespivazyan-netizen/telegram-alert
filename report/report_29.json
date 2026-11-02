@@ -1,0 +1,3256 @@
+{
+  "id": null,
+  "succeeded": true,
+  "message": null,
+  "exceptionCode": null,
+  "value": [
+    {
+      "id": 15419453,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/193399/Images/f8edd28d-94f2-4418-b1db-e4cd436199c3.png",
+      "date": "2026-10-29T22:39:50",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60474934,
+      "parentDealId": null,
+      "amount": 201.71,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1011778",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60474934",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900398411",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-180.79",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "AVRA",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15419451,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190911/Images/b2f17cb2-572d-4e21-990a-e671247f92bd.png",
+      "date": "2026-10-29T22:39:27",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60474911,
+      "parentDealId": null,
+      "amount": 238.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1549246",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60474911",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900398234",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-213.11",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Tashir Pizza",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15419385,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T22:33:10",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60474656,
+      "parentDealId": null,
+      "amount": 612.30,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60474656",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900395823",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-494.71",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15419104,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191518/Images/60c5fbea-29a1-4ba0-a481-edc6964483b2.png",
+      "date": "2026-10-29T22:09:00",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60473469,
+      "parentDealId": null,
+      "amount": 635.49,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1241476",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60473469",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900385857",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-570.65",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Parma",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15419083,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T22:07:53",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60473400,
+      "parentDealId": null,
+      "amount": 265.25,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60473400",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900385397",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-238.36",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15418932,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/193399/Images/f8edd28d-94f2-4418-b1db-e4cd436199c3.png",
+      "date": "2026-10-29T21:53:27",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60472643,
+      "parentDealId": null,
+      "amount": 50.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1011778",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60472643",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900378915",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-44.44",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "AVRA",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15418915,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191529/Images/a10f5fce-e282-4d97-9497-1260af8cfe12.png",
+      "date": "2026-10-29T21:52:17",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60472571,
+      "parentDealId": null,
+      "amount": 43.75,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "281841",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60472571",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900378458",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-38.38",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Zovq Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15417710,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190289/Images/06c385e6-5782-441e-a221-83be38390f05.png",
+      "date": "2026-10-29T20:20:15",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60466947,
+      "parentDealId": null,
+      "amount": 280.83,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "882306",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60466947",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900334312",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-251.49",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "36.6",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15417328,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191659_20203122356.png",
+      "date": "2026-10-29T19:57:11",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60465356,
+      "parentDealId": null,
+      "amount": 41.20,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1444925",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60465356",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900322356",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-33.29",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Gurmenia",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15417269,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/215140/Images/3a54d816-ca57-4819-a412-a2bdc199fc88.png",
+      "date": "2026-10-29T19:54:34",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60465160,
+      "parentDealId": null,
+      "amount": 100.35,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1001637",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60465160",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900320849",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-88.16",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Gurmenia Gastrocafe and  Bakery",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416976,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210037/Images/0cf3c6ef-5324-4d4e-9c05-96aad0f64da8.png",
+      "date": "2026-10-29T19:36:02",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60463853,
+      "parentDealId": null,
+      "amount": 14182.63,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1707454",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60463853",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900311273",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-12748.22",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "88 Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416865,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191529/Images/a10f5fce-e282-4d97-9497-1260af8cfe12.png",
+      "date": "2026-10-29T19:27:34",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60463335,
+      "parentDealId": null,
+      "amount": 648.04,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "281841",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60463335",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900307085",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-582.53",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Zovq Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416811,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191529/Images/a10f5fce-e282-4d97-9497-1260af8cfe12.png",
+      "date": "2026-10-29T19:23:36",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60463092,
+      "parentDealId": null,
+      "amount": 109.25,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "281841",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60463092",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900305075",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-98.2",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Zovq Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416519,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/192306/Images/d105f540-2c38-4d64-93db-bb07511033a4.png",
+      "date": "2026-10-29T19:01:29",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60461696,
+      "parentDealId": null,
+      "amount": 125.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "296067",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60461696",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900294179",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-108.07",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Abu Hagop Sandwich",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416336,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:49:58",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60460954,
+      "parentDealId": null,
+      "amount": 24.40,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60460954",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900288455",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-19.19",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416290,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/170260/Images/5369b9e1-37d1-4b57-a114-b7afa9a99b58.png",
+      "date": "2026-10-29T18:47:05",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60460750,
+      "parentDealId": null,
+      "amount": 3122.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1718912",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60460750",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900286973",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-2690.97",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Eldorado",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416219,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:42:18",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60460402,
+      "parentDealId": null,
+      "amount": 76.05,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60460402",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900284626",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-67.67",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416215,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-29T18:41:58",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60460384,
+      "parentDealId": null,
+      "amount": 98.80,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60460384",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900284383",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-87.87",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416124,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:35:36",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60459990,
+      "parentDealId": null,
+      "amount": 94.66,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60459990",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900281301",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-84.84",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416107,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:33:42",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60459880,
+      "parentDealId": null,
+      "amount": 42.45,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60459880",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900280421",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-37.37",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416086,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190911/Images/b2f17cb2-572d-4e21-990a-e671247f92bd.png",
+      "date": "2026-10-29T18:32:20",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60459783,
+      "parentDealId": null,
+      "amount": 635.80,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1549246",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60459783",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900279851",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-571.52",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Tashir Pizza",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416062,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:30:35",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60459680,
+      "parentDealId": null,
+      "amount": 27.80,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60459680",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900278940",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-24.24",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416033,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:28:45",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60459549,
+      "parentDealId": null,
+      "amount": 375.27,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60459549",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900278065",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-336.33",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15416026,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:27:51",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60459473,
+      "parentDealId": null,
+      "amount": 30.90,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60459473",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900277646",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-27.78",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415984,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:25:58",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60459327,
+      "parentDealId": null,
+      "amount": 86.18,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60459327",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900276816",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-76.76",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415896,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/212684/Images/c9547231-9fa6-4203-90e3-33cd1abb340f.png",
+      "date": "2026-10-29T18:20:25",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60458925,
+      "parentDealId": null,
+      "amount": 500.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1556574",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60458925",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900274009",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-439.61",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "PRIME MEAT",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415846,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T18:16:24",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60458708,
+      "parentDealId": null,
+      "amount": 71.81,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60458708",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900272094",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-63.63",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415778,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190439/Images/e38e51a9-4fb1-47a5-85bc-f542adc7909c.png",
+      "date": "2026-10-29T18:10:42",
+      "isPinned": false,
+      "dealOperation": 5,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60458399,
+      "parentDealId": null,
+      "amount": -288.75,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1075906",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60458399",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900269261",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վաճառքի գումարը",
+          "value": "+256",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 18,
+      "merchantName": "Karas",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415741,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190289/Images/06c385e6-5782-441e-a221-83be38390f05.png",
+      "date": "2026-10-29T18:08:25",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60458236,
+      "parentDealId": null,
+      "amount": 116.69,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "882306",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60458236",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900268140",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-104.03",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "36.6",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415447,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T17:46:40",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60456907,
+      "parentDealId": null,
+      "amount": 235.82,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60456907",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900257473",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-189.88",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415441,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190911/Images/b2f17cb2-572d-4e21-990a-e671247f92bd.png",
+      "date": "2026-10-29T17:46:04",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60456874,
+      "parentDealId": null,
+      "amount": 422.97,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1549246",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60456874",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900257079",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-379.76",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Tashir Pizza",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415431,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191805/Images/d7950f24-9c6c-4776-be1d-241bf720ca26.png",
+      "date": "2026-10-29T17:45:45",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60456835,
+      "parentDealId": null,
+      "amount": 1048.69,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1370426",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60456835",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900256902",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-942.33",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Titan supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415304,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/192803/Images/5ae2c929-cc4f-4fb4-a5da-e6ed8171fc87.png",
+      "date": "2026-10-29T17:35:06",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60456187,
+      "parentDealId": null,
+      "amount": 335.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1557671",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60456187",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900251609",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-281.39",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Bar B.Q.",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15415021,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191518/Images/60c5fbea-29a1-4ba0-a481-edc6964483b2.png",
+      "date": "2026-10-29T17:12:11",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60454816,
+      "parentDealId": null,
+      "amount": 198.65,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1241476",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60454816",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900240066",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-160.51",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Parma",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15414799,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210037/Images/0cf3c6ef-5324-4d4e-9c05-96aad0f64da8.png",
+      "date": "2026-10-29T16:55:42",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60453851,
+      "parentDealId": null,
+      "amount": 183.75,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1707454",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60453851",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900231779",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-164.63",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "88 Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15414710,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210037/Images/0cf3c6ef-5324-4d4e-9c05-96aad0f64da8.png",
+      "date": "2026-10-29T16:47:05",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60453295,
+      "parentDealId": null,
+      "amount": 122.25,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1707454",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60453295",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900227690",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-109.89",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "88 Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15414256,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/213644/Images/0eb2d93e-dee6-4e1c-84b9-84eff93c7ae0.jpeg",
+      "date": "2026-10-29T16:10:36",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60451161,
+      "parentDealId": null,
+      "amount": 60.02,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1697966",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60451161",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900210017",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-53.95",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Gulf Armenia",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15413833,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/214632/Images/11d301ff-44b0-468a-aff1-fbff17f0bcd2.png",
+      "date": "2026-10-29T15:34:27",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60449034,
+      "parentDealId": null,
+      "amount": 2136.72,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1701028",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60449034",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900192355",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-1918.08",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Vikan Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15413529,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191529/Images/a10f5fce-e282-4d97-9497-1260af8cfe12.png",
+      "date": "2026-10-29T15:08:57",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60447505,
+      "parentDealId": null,
+      "amount": 107.03,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "281841",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60447505",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900180360",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-95.95",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Zovq Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15413180,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191659_20203122356.png",
+      "date": "2026-10-29T14:42:05",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60445842,
+      "parentDealId": null,
+      "amount": 41.26,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1444925",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60445842",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900167330",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-37.09",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Gurmenia",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15413171,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210037/Images/0cf3c6ef-5324-4d4e-9c05-96aad0f64da8.png",
+      "date": "2026-10-29T14:41:25",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60445789,
+      "parentDealId": null,
+      "amount": 218.66,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1707454",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60445789",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900167039",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-196.56",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "88 Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15413167,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/193489/Images/d80a0690-7ec5-40eb-94e7-c2b5793f084c.png",
+      "date": "2026-10-29T14:41:10",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60445768,
+      "parentDealId": null,
+      "amount": 295.50,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "502340",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60445768",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900166910",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-265.63",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Degusto Food Studio",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15412689,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/192803/Images/5ae2c929-cc4f-4fb4-a5da-e6ed8171fc87.png",
+      "date": "2026-10-29T14:06:16",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60443477,
+      "parentDealId": null,
+      "amount": 3471.46,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1557671",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60443477",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900150233",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-3026.97",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Bar B.Q.",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15412655,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210386/Images/a9cdb297-4845-4c24-81a6-992af76bd635.jpeg",
+      "date": "2026-10-29T14:04:23",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60443339,
+      "parentDealId": null,
+      "amount": 140.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1588020",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60443339",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900149325",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-125.24",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "ART Petrol",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15411497,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191529/Images/a10f5fce-e282-4d97-9497-1260af8cfe12.png",
+      "date": "2026-10-29T13:03:19",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60438466,
+      "parentDealId": null,
+      "amount": 138.55,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "281841",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60438466",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900119997",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-119.18",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Zovq Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15411303,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190911/Images/b2f17cb2-572d-4e21-990a-e671247f92bd.png",
+      "date": "2026-10-29T12:50:11",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60437582,
+      "parentDealId": null,
+      "amount": 114.20,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1549246",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60437582",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900113995",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-102.32",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Tashir Pizza",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15411180,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190911/Images/b2f17cb2-572d-4e21-990a-e671247f92bd.png",
+      "date": "2026-10-29T12:43:48",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60437000,
+      "parentDealId": null,
+      "amount": 178.20,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1549246",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60437000",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900111082",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-143.99",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Tashir Pizza",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15411168,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191034/Images/71d5f878-2700-4e9c-aaf9-196545793e1a.png",
+      "date": "2026-10-29T12:43:19",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60436964,
+      "parentDealId": null,
+      "amount": 204.10,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1714467",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60436964",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900110880",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-182.81",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Clean House",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15410847,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190289/Images/06c385e6-5782-441e-a221-83be38390f05.png",
+      "date": "2026-10-29T12:23:22",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60435509,
+      "parentDealId": null,
+      "amount": 58.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "882306",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60435509",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900101608",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-51.51",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "36.6",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15410755,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/191529/Images/a10f5fce-e282-4d97-9497-1260af8cfe12.png",
+      "date": "2026-10-29T12:16:50",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60435054,
+      "parentDealId": null,
+      "amount": 141.45,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "281841",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60435054",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900098444",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-127.15",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Zovq Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15410241,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/190911/Images/b2f17cb2-572d-4e21-990a-e671247f92bd.png",
+      "date": "2026-10-29T11:58:58",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60433554,
+      "parentDealId": null,
+      "amount": 253.40,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1549246",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60433554",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900089130",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-202.19",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Tashir Pizza",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15410234,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/210037/Images/0cf3c6ef-5324-4d4e-9c05-96aad0f64da8.png",
+      "date": "2026-10-29T11:58:42",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60433534,
+      "parentDealId": null,
+      "amount": 714.46,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1707454",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60433534",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102900089028",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-570.06",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "88 Supermarket",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15407531,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/204068/Images/1de050c9-0412-4164-85aa-ab16e2490698.png",
+      "date": "2026-10-29T00:35:41",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60421049,
+      "parentDealId": null,
+      "amount": 184.50,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1556608",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60421049",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102800434724",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-159.58",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Gigant Shaurma",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15407528,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/200961/Images/8327f5c1-aecc-496e-bc2c-4ef624bf121c.png",
+      "date": "2026-10-29T00:35:10",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60421036,
+      "parentDealId": null,
+      "amount": 184.80,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1221443",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60421036",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102800434576",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-156.78",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "COOL CLUB",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15407524,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/170260/Images/5369b9e1-37d1-4b57-a114-b7afa9a99b58.png",
+      "date": "2026-10-29T00:34:46",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60421028,
+      "parentDealId": null,
+      "amount": 7332.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1718912",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60421028",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102800434480",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-5924.26",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Eldorado",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15407522,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/200961/Images/8327f5c1-aecc-496e-bc2c-4ef624bf121c.png",
+      "date": "2026-10-29T00:34:22",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60421015,
+      "parentDealId": null,
+      "amount": 347.40,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1221443",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60421015",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102800434370",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-292.9",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "COOL CLUB",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15407520,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/192803/Images/5ae2c929-cc4f-4fb4-a5da-e6ed8171fc87.png",
+      "date": "2026-10-29T00:34:02",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60421004,
+      "parentDealId": null,
+      "amount": 3170.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1557671",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60421004",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102800434230",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-2772.45",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "Bar B.Q.",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    },
+    {
+      "id": 15407518,
+      "merchantLogoUrl": "https://cashback.idram.am/Drive/ServiceMemberImages/212684/Images/c9547231-9fa6-4203-90e3-33cd1abb340f.png",
+      "date": "2026-10-29T00:33:25",
+      "isPinned": false,
+      "dealOperation": 3,
+      "isRefund": false,
+      "isRefundable": false,
+      "dealId": 60420988,
+      "parentDealId": null,
+      "amount": 230.00,
+      "presenterInfo": null,
+      "dealInfoItems": [
+        {
+          "name": "Քարտի համարը",
+          "value": "1556574",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գործարքի ID",
+          "value": "60420988",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Վճարման եղանակը",
+          "value": "Idram",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Իդրամ գործարքի ID",
+          "value": "26102800434071",
+          "uom": null,
+          "dealType": null
+        },
+        {
+          "name": "Գնման գումարը",
+          "value": "-185.84",
+          "uom": "֏",
+          "dealType": null
+        }
+      ],
+      "dealDetails": [],
+      "dicDocTypeId": 5,
+      "merchantName": "PRIME MEAT",
+      "branchName": null,
+      "branchAddress": null,
+      "sourceName": "Բոնուս",
+      "uom": "Բոնուս",
+      "dealType": 3,
+      "title": null,
+      "notes": null,
+      "refundFeePercent": 0.00
+    }
+  ]
+}

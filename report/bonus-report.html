@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Օրական Հաշվետվություն</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    /* Soft Charcoal Black & Lavender-Violet Palette */
+    --bg-page: #131217;
+    --card-bg: #1c1a24;
+    --card-bg-hover: #23202e;
+    
+    --text-main: #f3f0fb;
+    --text-muted: #9d96b0;
+    --text-subtle: #6c6680;
+    
+    --border-light: rgba(180, 160, 230, 0.08);
+    --border-card: rgba(180, 160, 230, 0.14);
+    
+    --brand-violet: #9d7dfa;
+    --brand-violet-hover: #b397ff;
+    --brand-violet-soft: rgba(157, 125, 250, 0.12);
+    --brand-violet-border: rgba(157, 125, 250, 0.28);
+
+    --success: #34d399;
+    --success-soft: rgba(52, 211, 153, 0.12);
+    --danger: #fb7185;
+    --danger-soft: rgba(251, 113, 133, 0.12);
+    
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    
+    --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.45);
+    --shadow-hover: 0 8px 25px -2px rgba(157, 125, 250, 0.12);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-page);
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(157, 125, 250, 0.06) 0px, transparent 60%),
+        radial-gradient(at 100% 100%, rgba(124, 58, 237, 0.04) 0px, transparent 60%);
+    color: var(--text-main);
+    padding: 24px 18px;
+    line-height: 1.45;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+.dashboard-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Header */
+.main-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-header .title-area h1 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* KPI Overview Grid */
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.kpi-card {
+    background: var(--card-bg);
+    border-radius: var(--radius-md);
+    padding: 14px 16px;
+    border: 1px solid var(--border-card);
+    box-shadow: var(--shadow-soft);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kpi-card:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--brand-violet-border);
+}
+
+.kpi-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.kpi-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.kpi-icon-pill {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.kpi-icon-pill svg {
+    width: 15px;
+    height: 15px;
+}
+
+.icon-blue { background: rgba(59, 130, 246, 0.15); color: #60a5fa; }
+.icon-purple { background: var(--brand-violet-soft); color: var(--brand-violet); }
+.icon-emerald { background: var(--success-soft); color: var(--success); }
+.icon-cyan { background: rgba(14, 165, 233, 0.15); color: #38bdf8; }
+
+.kpi-value {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: -0.02em;
+}
+
+/* Dashboard Main Panel */
+.dashboard-card {
+    background: var(--card-bg);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-card);
+    box-shadow: var(--shadow-soft);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card-header-styled {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #181620;
+}
+
+.card-header-styled h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tabs-control {
+    display: flex;
+    background: #111016;
+    border: 1px solid var(--border-light);
+    padding: 3px;
+    border-radius: 8px;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    border: none;
+    background: transparent;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tab-btn:hover {
+    color: var(--text-main);
+}
+
+.tab-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--success);
+}
+
+.tab-btn.active {
+    background: var(--brand-violet);
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(157, 125, 250, 0.35);
+}
+
+.tab-btn.active .tab-val {
+    color: #e0e7ff;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Compact Table Layout */
+.compact-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+}
+
+.compact-table th {
+    background: #16141d;
+    color: var(--text-muted);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border-light);
+    white-space: nowrap;
+}
+
+.compact-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 13px;
+    color: var(--text-main);
+    white-space: nowrap;
+}
+
+.compact-table tbody tr {
+    transition: background-color 0.12s ease;
+}
+
+.compact-table tbody tr:hover {
+    background-color: var(--card-bg-hover);
+}
+
+.compact-table .row-id {
+    color: var(--text-subtle);
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.merchant-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.merchant-name {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-main);
+    letter-spacing: -0.01em;
+}
+
+.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.font-medium { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+.currency {
+    color: var(--text-muted);
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+.percent-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    width: 75px;
+}
+
+.percent-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.mini-progress-bar {
+    width: 100%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.mini-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--brand-violet), var(--success));
+    border-radius: 3px;
+}
+
+.table-total-row td {
+    background: #14131a;
+    border-top: 1.5px solid var(--brand-violet-border);
+    font-weight: 800;
+    font-size: 13px;
+    padding: 12px 14px;
+}
+
+.section-subtitle {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 24px 0 12px 2px;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* 2 CARDS PER LINE (GRID) */
+.cards-2col-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    align-items: start;
+}
+
+.accordion-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border-card);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    transition: border-color 0.15s ease;
+}
+
+.accordion-item:hover {
+    border-color: var(--brand-violet-border);
+}
+
+.accordion-summary {
+    padding: 11px 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    list-style: none;
+    background: var(--card-bg);
+    transition: background 0.15s ease;
+}
+
+.accordion-summary:hover {
+    background: var(--card-bg-hover);
+}
+
+.accordion-summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.merchant-name-text {
+    font-size: 14.5px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: -0.015em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.badge-tag {
+    font-size: 9.5px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.badge-tag-buy { background: var(--danger-soft); color: var(--danger); border: 1px solid rgba(251, 113, 133, 0.2); }
+.badge-tag-sell { background: var(--success-soft); color: var(--success); border: 1px solid rgba(52, 211, 153, 0.2); }
+
+.summary-right-zone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.result-block {
+    width: 185px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12.5px;
+}
+
+.chevron-icon {
+    width: 15px;
+    height: 15px;
+    color: var(--brand-violet);
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
+}
+
+.accordion-item[open] .chevron-icon {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    border-top: 1px solid var(--border-light);
+    background: #14131a;
+    overflow-x: auto;
+}
+
+/* Card Tables: compact and strictly no-wrap */
+.card-table th {
+    padding: 8px 10px;
+    font-size: 10.5px;
+    white-space: nowrap;
+}
+
+.card-table td {
+    padding: 9px 10px;
+    font-size: 12.5px;
+    white-space: nowrap;
+}
+
+.status-pill {
+    display: inline-flex;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 9px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.pill-buy { background: var(--danger-soft); color: var(--danger); }
+.pill-sell { background: var(--success-soft); color: var(--success); }
+
+.text-success { color: var(--success) !important; }
+.text-danger { color: var(--danger) !important; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+@media (max-width: 1100px) {
+    .cards-2col-grid { grid-template-columns: 1fr; }
+    .result-block { width: auto; }
+}
+
+@media (max-width: 850px) {
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 520px) {
+    .kpi-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="dashboard-container">
+    <header class="main-header">
+        <div class="title-area">
+            <h1>
+                <span>📊</span> Օրական Հաշվետվություն
+            </h1>
+        </div>
+    </header>
+
+    <!-- KPI Grid -->
+    <section class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-header">
+                <span class="kpi-label">Ընդհանուր Գնումներ</span>
+                <div class="kpi-icon-pill icon-blue">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="kpi-value text-danger">39261.09 <span class="currency">֏</span></div>
+        </div>
+
+        <div class="kpi-card">
+            <div class="kpi-header">
+                <span class="kpi-label">Ընդհանուր Վաճառքներ</span>
+                <div class="kpi-icon-pill icon-purple">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="kpi-value text-success">256.00 <span class="currency">֏</span></div>
+        </div>
+
+        <div class="kpi-card">
+            <div class="kpi-header">
+                <span class="kpi-label">Օրական Շարժ</span>
+                <div class="kpi-icon-pill icon-emerald">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="kpi-value text-danger">-39005.09 <span class="currency">֏</span></div>
+        </div>
+
+        <div class="kpi-card">
+            <div class="kpi-header">
+                <span class="kpi-label">Զուտ Խնայողություն</span>
+                <div class="kpi-icon-pill icon-cyan">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="kpi-value text-success">2688.57 <span class="currency">֏</span></div>
+        </div>
+    </section>
+
+    <!-- Խնայողությունների հատված -->
+    <div class="dashboard-card">
+        <div class="card-header-styled">
+            <h2>💰 Խնայողություն</h2>
+            <div class="tabs-control">
+                <button class="tab-btn active" onclick="openTab(event, 'tab-supermarkets')">
+                    <span>🛒 Սուպերմարկետներ</span>
+                    <span class="tab-val">= 1992.68 ֏</span>
+                </button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-petrol')">
+                    <span>⛽ Բենզալցակայաններ</span>
+                    <span class="tab-val">= 58.24 ֏</span>
+                </button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-vayrer')">
+                    <span>📍 Վայրեր</span>
+                    <span class="tab-val">= 637.65 ֏</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 1. Սուպերմարկետներ -->
+        <div id="tab-supermarkets" class="tab-pane active">
+            
+        <div class="table-responsive">
+            <table class="compact-table">
+                <thead>
+                    <tr>
+                        <th class="text-center" style="width: 36px;">#</th>
+                        <th>Գործընկեր</th>
+                        <th class="text-right">Գնումներ</th>
+                        <th class="text-right">Լոտի Գին</th>
+                        <th class="text-right">Գումար</th>
+                        <th class="text-right">Խնայողություն</th>
+                        <th class="text-right">Զուտ Խնայողություն</th>
+                        <th class="text-right">Խնայողություն %</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+        <tr>
+            <td class="text-center row-id">1</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">88 Supermarket</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">5</td>
+            <td class="text-right font-mono">13789.36 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">15421.75 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">1632.39 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                1632.39 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">10.58%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 10.584985491270466%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">2</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Zovq Supermarket</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">6</td>
+            <td class="text-right font-mono">1061.39 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">1188.07 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">126.68 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                126.68 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">10.66%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 10.662671391416318%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">3</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Titan supermarket</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">1</td>
+            <td class="text-right font-mono">942.33 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">1048.69 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">106.36 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                106.36 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">10.14%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 10.142177383211436%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">4</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Parma</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">2</td>
+            <td class="text-right font-mono">731.16 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">834.14 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">102.98 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                102.98 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">12.35%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 12.345649411369797%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">5</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Gurmenia Gastrocafe and  Bakery</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">1</td>
+            <td class="text-right font-mono">88.16 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">100.35 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">12.19 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                12.19 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">12.15%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 12.14748380667663%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">6</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Gurmenia</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">2</td>
+            <td class="text-right font-mono">70.38 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">82.46 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">12.08 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                12.08 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">14.65%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 14.649527043415004%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+                </tbody>
+                <tfoot>
+                    <tr class="table-total-row">
+                        <td colspan="2">Ընդամենը</td>
+                        <td class="text-right">17</td>
+                        <td class="text-right font-mono">16682.78 ֏</td>
+                        <td class="text-right font-mono">18675.46 ֏</td>
+                        <td class="text-right font-mono">1992.68 ֏</td>
+                        <td class="text-right font-mono font-bold text-success">1992.68 ֏</td>
+                        <td class="text-right">10.67%</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    
+        </div>
+
+        <!-- 2. Բենզալցակայաններ -->
+        <div id="tab-petrol" class="tab-pane">
+            
+        <div class="table-responsive">
+            <table class="compact-table">
+                <thead>
+                    <tr>
+                        <th class="text-center" style="width: 36px;">#</th>
+                        <th>Գործընկեր</th>
+                        <th class="text-right">Գնումներ</th>
+                        <th class="text-right">Լոտի Գին</th>
+                        <th class="text-right">Գումար</th>
+                        <th class="text-right">Խնայողություն</th>
+                        <th class="text-right">Զուտ Խնայողություն</th>
+                        <th class="text-right">Խնայողություն %</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+        <tr>
+            <td class="text-center row-id">1</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">AVRA</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">2</td>
+            <td class="text-right font-mono">225.23 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">251.71 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">26.48 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                26.48 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">10.52%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 10.520042906519414%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">2</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">ART Petrol</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">2</td>
+            <td class="text-right font-mono">213.11 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">238.80 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">25.69 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                25.69 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">10.76%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 10.757956448911221%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">3</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Gulf Armenia</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">1</td>
+            <td class="text-right font-mono">53.95 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">60.02 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">6.07 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                6.07 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">10.11%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 10.113295568143952%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+                </tbody>
+                <tfoot>
+                    <tr class="table-total-row">
+                        <td colspan="2">Ընդամենը</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right font-mono">492.29 ֏</td>
+                        <td class="text-right font-mono">550.53 ֏</td>
+                        <td class="text-right font-mono">58.24 ֏</td>
+                        <td class="text-right font-mono font-bold text-success">58.24 ֏</td>
+                        <td class="text-right">10.58%</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    
+        </div>
+
+        <!-- 3. Վայրեր -->
+        <div id="tab-vayrer" class="tab-pane">
+            
+        <div class="table-responsive">
+            <table class="compact-table">
+                <thead>
+                    <tr>
+                        <th class="text-center" style="width: 36px;">#</th>
+                        <th>Գործընկեր</th>
+                        <th class="text-right">Գնումներ</th>
+                        <th class="text-right">Լոտի Գին</th>
+                        <th class="text-right">Գումար</th>
+                        <th class="text-right">Խնայողություն</th>
+                        <th class="text-right">Զուտ Խնայողություն</th>
+                        <th class="text-right">Խնայողություն %</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+        <tr>
+            <td class="text-center row-id">1</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Clean House</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">13</td>
+            <td class="text-right font-mono">1843.57 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">2146.99 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">303.42 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                303.42 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">14.13%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 14.13234342032332%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">2</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">Tashir Pizza</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">6</td>
+            <td class="text-right font-mono">1612.89 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">1842.57 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">229.68 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                229.68 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">12.47%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 12.465198065745142%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="text-center row-id">3</td>
+            <td>
+                <div class="merchant-cell">
+                    <span class="merchant-name">PRIME MEAT</span>
+                </div>
+            </td>
+            <td class="text-right font-medium">2</td>
+            <td class="text-right font-mono">625.45 <span class="currency">֏</span></td>
+            <td class="text-right font-mono">730.00 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold">104.55 <span class="currency">֏</span></td>
+            <td class="text-right font-mono font-bold text-success">
+                104.55 <span class="currency">֏</span>
+            </td>
+            <td class="text-right">
+                <div class="percent-wrapper">
+                    <span class="percent-text">14.32%</span>
+                    <div class="mini-progress-bar">
+                        <div class="mini-progress-fill" style="width: 14.321917808219172%;"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+                </tbody>
+                <tfoot>
+                    <tr class="table-total-row">
+                        <td colspan="2">Ընդամենը</td>
+                        <td class="text-right">21</td>
+                        <td class="text-right font-mono">4081.91 ֏</td>
+                        <td class="text-right font-mono">4719.56 ֏</td>
+                        <td class="text-right font-mono">637.65 ֏</td>
+                        <td class="text-right font-mono font-bold text-success">637.65 ֏</td>
+                        <td class="text-right">13.51%</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    
+        </div>
+    </div>
+
+    <!-- Այլ Գործարքներ (2 քարտ մեկ տողում, առանց # սյունակի և առանց ֏ նշանի) -->
+    <h3 class="section-subtitle">🏢 Այլ Գործարքներ</h3>
+    <div class="cards-2col-grid">
+
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">Karas</span>
+                    
+                    <span class="badge-tag badge-tag-sell">Վաճառքներ՝ 1</span>
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-success">
+                        Արդյունք՝ +256.00 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 18:10:42
+                            </td>
+                            <td><span class="status-pill pill-sell">ՎԱՃԱՌՔ</span></td>
+                            <td class="text-right font-mono font-medium">288.75</td>
+                            <td class="text-right font-mono font-medium">256.00</td>
+                            <td class="text-right font-mono font-bold text-success">+32.75</td>
+                            <td class="text-right font-mono font-bold text-success">11.34%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">Abu Hagop Sandwich</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 1</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -108.07 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 19:01:29
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">125.00</td>
+                            <td class="text-right font-mono font-medium">108.07</td>
+                            <td class="text-right font-mono font-bold text-success">+16.93</td>
+                            <td class="text-right font-mono font-bold text-success">13.54%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">Gigant Shaurma</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 1</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -159.58 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 0:35:41
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">184.50</td>
+                            <td class="text-right font-mono font-medium">159.58</td>
+                            <td class="text-right font-mono font-bold text-success">+24.92</td>
+                            <td class="text-right font-mono font-bold text-success">13.51%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">Degusto Food Studio</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 1</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -265.63 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 14:41:10
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">295.50</td>
+                            <td class="text-right font-mono font-medium">265.63</td>
+                            <td class="text-right font-mono font-bold text-success">+29.87</td>
+                            <td class="text-right font-mono font-bold text-success">10.11%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">36.6</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 3</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -407.03 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 20:20:15
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">280.83</td>
+                            <td class="text-right font-mono font-medium">251.49</td>
+                            <td class="text-right font-mono font-bold text-success">+29.34</td>
+                            <td class="text-right font-mono font-bold text-success">10.45%</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 18:08:25
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">116.69</td>
+                            <td class="text-right font-mono font-medium">104.03</td>
+                            <td class="text-right font-mono font-bold text-success">+12.66</td>
+                            <td class="text-right font-mono font-bold text-success">10.85%</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 12:23:22
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">58.00</td>
+                            <td class="text-right font-mono font-medium">51.51</td>
+                            <td class="text-right font-mono font-bold text-success">+6.49</td>
+                            <td class="text-right font-mono font-bold text-success">11.19%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">COOL CLUB</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 2</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -449.68 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 0:35:10
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">184.80</td>
+                            <td class="text-right font-mono font-medium">156.78</td>
+                            <td class="text-right font-mono font-bold text-success">+28.02</td>
+                            <td class="text-right font-mono font-bold text-success">15.16%</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 0:34:22
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">347.40</td>
+                            <td class="text-right font-mono font-medium">292.90</td>
+                            <td class="text-right font-mono font-bold text-success">+54.50</td>
+                            <td class="text-right font-mono font-bold text-success">15.69%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">Vikan Petrol</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 1</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -1918.08 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 15:34:27
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">2136.72</td>
+                            <td class="text-right font-mono font-medium">1918.08</td>
+                            <td class="text-right font-mono font-bold text-success">+218.64</td>
+                            <td class="text-right font-mono font-bold text-success">10.23%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">Bar B.Q.</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 3</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -6080.81 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 17:35:06
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">335.00</td>
+                            <td class="text-right font-mono font-medium">281.39</td>
+                            <td class="text-right font-mono font-bold text-success">+53.61</td>
+                            <td class="text-right font-mono font-bold text-success">16.00%</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 14:06:16
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">3471.46</td>
+                            <td class="text-right font-mono font-medium">3026.97</td>
+                            <td class="text-right font-mono font-bold text-success">+444.49</td>
+                            <td class="text-right font-mono font-bold text-success">12.80%</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 0:34:02
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">3170.00</td>
+                            <td class="text-right font-mono font-medium">2772.45</td>
+                            <td class="text-right font-mono font-bold text-success">+397.55</td>
+                            <td class="text-right font-mono font-bold text-success">12.54%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+        <details class="accordion-item">
+            <summary class="accordion-summary">
+                <div class="accordion-title">
+                    <span class="merchant-name-text">Eldorado</span>
+                    <span class="badge-tag badge-tag-buy">Գնումներ՝ 2</span>
+                    
+                </div>
+                
+                <div class="summary-right-zone">
+                    <span class="result-block font-mono font-bold text-danger">
+                        Արդյունք՝ -8615.23 ֏
+                    </span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </summary>
+
+            <div class="accordion-content">
+                <table class="compact-table card-table">
+                    <thead>
+                        <tr>
+                            <th>Ամսաթիվ</th>
+                            <th>Տեսակ</th>
+                            <th class="text-right">Գումար</th>
+                            <th class="text-right">Լոտի Գին</th>
+                            <th class="text-right">Տարբերություն</th>
+                            <th class="text-right">Խնայողություն %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 18:47:05
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">3122.00</td>
+                            <td class="text-right font-mono font-medium">2690.97</td>
+                            <td class="text-right font-mono font-bold text-success">+431.03</td>
+                            <td class="text-right font-mono font-bold text-success">13.81%</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="color: var(--text-muted); font-size: 11px;">
+                                29.10.2026, 0:34:46
+                            </td>
+                            <td><span class="status-pill pill-buy">ԳՆՈՒՄ</span></td>
+                            <td class="text-right font-mono font-medium">7332.00</td>
+                            <td class="text-right font-mono font-medium">5924.26</td>
+                            <td class="text-right font-mono font-bold text-success">+1407.74</td>
+                            <td class="text-right font-mono font-bold text-success">19.20%</td>
+                        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </details>
+    
+    </div>
+</div>
+
+<script>
+function openTab(evt, tabId) {
+    const tabPanes = document.querySelectorAll('.tab-pane');
+    tabPanes.forEach(pane => pane.classList.remove('active'));
+
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    tabBtns.forEach(btn => btn.classList.remove('active'));
+
+    document.getElementById(tabId).classList.add('active');
+    evt.currentTarget.classList.add('active');
+}
+</script>
+
+</body>
+</html>
