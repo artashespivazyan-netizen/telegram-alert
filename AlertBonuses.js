@@ -1,4 +1,5 @@
 require("dotenv").config();
+global.performance = require('perf_hooks').performance;
 const { getMerchants } = require("./Merchants");
 const CSAuctionIdramClient = require("./CSAuctionIdramClient");
 
