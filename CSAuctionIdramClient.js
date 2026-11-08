@@ -3,7 +3,7 @@ const http = require("http");
 const https = require("https");
 const config = require("./config");
 
-// Reusable TCP/TLS connections compatible with iSH network emulation
+// Reusable TCP/TLS connections to minimize handshake latency
 const httpAgent = new http.Agent({ keepAlive: true, maxSockets: 50 });
 const httpsAgent = new https.Agent({ keepAlive: true, maxSockets: 50 });
 
@@ -11,9 +11,9 @@ class CSAuctionIdramClient {
     constructor() {
         this.apiClient = axios.create({
             baseURL: config.CS_AUCTION_IDRAM,
+            timeout: 5000,
             httpAgent,
             httpsAgent,
-            timeout: 5000,
             headers: { "Accept-Encoding": "gzip,deflate,br" }
         });
 
@@ -44,14 +44,14 @@ class CSAuctionIdramClient {
 
     /**
      * Sends a push notification to iOS via Bark
-     * @param {string} message Notification text
-     * @param {string} [title="Idram Alert"] Notification title
-     * @param {string} [actionUrl="idplus://"] Direct app scheme or shortcut link
+     * @param {string} message - Notification text
+     * @param {string} [title="Idram Alert"] - Notification title
+     * @param {string} [actionUrl="idplus://"] - Direct app scheme or shortcut link
      */
     async sendBarkNotification(
         message,
         title = "Idram Alert",
-        actionUrl = "idplus://"
+        actionUrl = "idplus://merchants"
     ) {
         const plainText = typeof message === "string"
             ? message.replace(this.htmlRegex, "")
@@ -60,10 +60,12 @@ class CSAuctionIdramClient {
         const payload = {
             title,
             body: plainText,
-            // sound: "minuet",
+            sound: "minuet",
             level: "timeSensitive",
             group: "IdramAuction",
             url: actionUrl
+
+
         };
 
         return this.barkClient.post(`/${this.barkKey}`, payload);
