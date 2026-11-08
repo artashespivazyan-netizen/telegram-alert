@@ -9,7 +9,7 @@ const auctionIdramClient = new CSAuctionIdramClient();
 
 const THRESHOLDS = Object.freeze({
     PERSONAL: 9,
-    BUSINESS: 11
+    BUSINESS: 14
 });
 
 const MIN_AMOUNT = 200;
@@ -153,8 +153,6 @@ async function sendNotification(merchantName, item, targetUrl, randomNumber) {
             return;
         }
 
-        // Log asynchronously after network completion
-        console.log(`🔔 [Bark Sent] Push delivered for ${merchantName}`);
     } catch (err) {
         console.error(`❌ Bark dispatch error for ${merchantName}:`, err.message);
     }
@@ -196,7 +194,7 @@ async function checkMerchant(merchant, randomNumber) {
                 // 4. Set lookup
                 if (!notifiedItemIds.has(itemId)) {
                     rememberNotified(itemId);
-
+                    console.log(`⚡ [MATCH ${merchantName}: ${savingPercent}% (Amount: ${amount})`);
                     // Initialize promise array on first match only (avoids GC allocations on misses)
                     if (notificationPromises === null) {
                         notificationPromises = [];
@@ -263,11 +261,7 @@ async function loop() {
 (async () => {
     console.log(`🚀 Fast runner started in [${RUN_MODE}] mode (${STATIC_MERCHANT_LIST.length} merchants)...`);
 
-    if (process.env.BARK_KEY) {
-        console.log(`🔑 Bark key detected: ${sanitizeBarkKey(process.env.BARK_KEY).substring(0, 6)}******`);
-    } else {
-        console.warn(`⚠️ Warning: BARK_KEY is not defined in .env!`);
-    }
+
 
     loop();
 })();
